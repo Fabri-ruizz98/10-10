@@ -1,0 +1,57 @@
+*{
+    font-family:sans-serif;
+    font-weight: 300;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+UL{
+    list-style-type: none;
+    display: flex;
+    gap: 20PX;
+    text-decoration: overline;
+    font-weight: bolder;
+}
+
+.principal{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    width: 100%;
+}
+
+.tarjeta{
+    width: 250px;
+    border: 5px solid black;
+    background-color: blueviolet;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+img{
+    width: 100%;
+}
+
+.boton-tarjeta{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: blue;
+    color: whitesmoke;
+    border-radius: 10px;
+    font-weight: 400px;
+}
+
+nav{
+    background-color: rgb(80, 200, 255);
+    padding: 20px;
+    color: rgb(233, 122, 122);
+}

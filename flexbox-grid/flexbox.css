@@ -1,0 +1,27 @@
+*{
+    font-size: 20px;
+}
+
+.padre{
+    background-color:aquamarine;
+    height: 800px;
+    display: flex;
+    flex-direction:row;
+    justify-content:start;
+    align-items:center;
+    gap:30px;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+}
+
+.hijos{
+    background-color: crimson;
+    border: 2px solid #080808;
+    width:200px;
+    height: 200px;
+}
+
+.elemento3{
+    align-self: center;
+    background-color: rgb(95, 160, 98) !important;
+}
